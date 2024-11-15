@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 const Contact = () => {
     return (
-      <div className="container">
+      <>
         <h1>Contact Us</h1>
         <Form>
 
@@ -33,7 +33,7 @@ const Contact = () => {
             Submit
           </Button>
         </Form>
-        </div>
+        </>
       );
 };
   
